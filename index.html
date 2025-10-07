@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currículo Interativo de Gabriel</title>
+  <link rel="stylesheet" href="style.css"/>
+
+
+</head>
+<body>
+
+  <header>
+    <img src="minha.foto.jpg" alt="Minha foto" />
+    <h1>Gabriel Oliveira Morais Vieira</h1>
+    <p>Desenvolvedor Front-End | UI/UX Designer</p>
+  </header>
+
+  <nav>
+    <button onclick="showSection('sobre')">Sobre Mim</button>
+    <button onclick="showSection('experiencia')">Experiência</button>
+    <button onclick="showSection('projetos')">Projetos</button>
+    <button onclick="showSection('contato')">Contato</button>
+  </nav>
+
+  <main>
+    <section id="sobre" class="active">
+      <h2>Sobre Mim</h2>
+      <p>Estou no segundo semestre do curso de Gestão de TI na Faculdade Adventista do Paraná, e estou aprendendo html, css e 
+        java script.
+      </p>
+     
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiência Profissional</h2>
+      <ul>
+        <li><strong>Bauducco</strong> - Jovem aprendiz em redes de computadores (2017)</li>
+        <li><strong>Kopenhagen</strong> - Jovem aprendiz em Panificação (2020)</li>
+        <li><strong>Multilaser</strong> - Auxiliar de assitência técnica (2021-2023)</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <p>Ainda não tenho projetos.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: <a href="mailto:bielmorais991@gmail.com">bielmorais991@gmail.com</a></p>
+      <div class="links">
+        <a href="https://github.com/bielmorais" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/gabriel-morais-vieira-550208217/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gabriel Oliveira Morais Vieira - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
