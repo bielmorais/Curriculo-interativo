@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   box-sizing: border-box;
 }
@@ -12,14 +12,14 @@ html, body {
   color: #333;
 }
 
-/* Corpo com flexbox para o footer fixar */
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Header estilizado */
+
 header {
   background-color: #004080;
   color: white;
@@ -35,7 +35,7 @@ header img {
   margin-bottom: 10px;
 }
 
-/* Navegação */
+
 nav {
   background-color: #1d2d58;
   display: flex;
@@ -58,7 +58,7 @@ nav button:hover {
   background-color: #cce0ff;
 }
 
-/* Main cresce para ocupar espaço */
+
 main {
   flex: 1;
   padding: 20px;
@@ -67,7 +67,7 @@ main {
   width: 100%;
 }
 
-/* Seções */
+
 section {
   display: none;
 }
@@ -76,7 +76,7 @@ section.active {
   display: block;
 }
 
-/* Footer fixado no rodapé */
+
 footer {
   background-color: #777777;
   color: white;
